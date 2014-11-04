@@ -7,7 +7,7 @@
 	cd staging
 
 # Create repository
-	repo init -u git://github.com/napodan -b master
+	repo init -u git://github.com/napodan/minetest_manifest -b master
 	repo sync
 
 # Build for windows 64 bits in fedora 20
