@@ -6,6 +6,7 @@
 	remote="napodan"
 	sync-j="4" />
 
+	<project path="build" name="minetest_build" />
 	<project path="manifest" name="minetest_manifest" />
 	<project path="minetest" name="minetest" />
 	
