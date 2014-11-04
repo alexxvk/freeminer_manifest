@@ -1,0 +1,16 @@
+# Install Repo :
+	curl https://storage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
+	chmod a+x ~/bin/repo
+
+# Create a working directory
+	mkdir staging
+	cd staging
+
+# Create repository
+	repo init -u git://github.com/napodan -b master
+	repo sync
+
+# Build for windows 64 bits in fedora 20
+	cd minetest
+	./build/win64/build.sh
+

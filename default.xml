@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<remote name="napodan"
+	fetch="git://github.com/napodan/" />
+	<default revision="master"
+	remote="napodan"
+	sync-j="4" />
+
+	<project path="minetest" name="minetest" />
+</manifest>
