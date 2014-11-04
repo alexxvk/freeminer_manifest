@@ -8,7 +8,7 @@
 
 	<project path="build" name="minetest_build" />
 	<project path="external/irrlicht" name="minetest_external_irrlicht" />
-	<project path="external/leveldb" name="leveldb" />
+	<project path="external/leveldb" name="leveldb" revision="windows_1.15" />
 	<project path="manifest" name="minetest_manifest" />
 	<project path="minetest" name="minetest" />
 	
