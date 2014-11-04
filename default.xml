@@ -1,15 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 	<remote name="napodan"
-	fetch="git://github.com/napodan/" />
+		fetch="git://github.com/napodan/" />
+	<remote name="minetest"
+		fetch="git://github.com/minetest/" />
 	<default revision="master"
-	remote="napodan"
-	sync-j="4" />
+		remote="napodan"
+		sync-j="4" />
 
 	<project path="build" name="minetest_build" />
 	<project path="external/irrlicht" name="minetest_external_irrlicht" />
 	<project path="external/leveldb" name="leveldb" revision="windows_1.15" />
 	<project path="manifest" name="minetest_manifest" />
 	<project path="minetest" name="minetest" />
+
+	<!-- Add all the game you want here -->
+	<project path="minetest/games/minetest_game" name="minetest_game" remote="minetest" revision="master" />
+
 	
 </manifest>
