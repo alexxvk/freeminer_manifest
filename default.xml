@@ -11,6 +11,7 @@
 	<project path="build" name="minetest_build" />
 	<project path="external/irrlicht" name="minetest_external_irrlicht" />
 	<project path="external/leveldb" name="leveldb" revision="windows_1.18" />
+	<project path="external/LuaJIT" name="minetest_LuaJIT" />
 	<project path="manifest" name="minetest_manifest" />
 	<project path="minetest" name="minetest" revision="master2" />
 
