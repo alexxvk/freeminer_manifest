@@ -1,4 +1,9 @@
+# Verify that your system is up-to-date
+# Prerequisite in fedora 20 (or 21 Beta4)
+	sudo yum install curl git gpg
+
 # Install Repo :
+	mkdir ~/bin/
 	curl https://storage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
 	chmod a+x ~/bin/repo
 
@@ -9,6 +14,9 @@
 # Create repository
 	repo init -u git://github.com/napodan/minetest_manifest -b master
 	repo sync
+
+# Prerequisite to build for windows 64 in fedora 20
+	sudo yum install gcc mingw64* cmake
 
 # Build for windows 64 bits in fedora 20
 	./build/win64/build.sh
