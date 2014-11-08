@@ -15,9 +15,9 @@
 	repo init -u git://github.com/napodan/minetest_manifest -b master
 	repo sync
 
-# Prerequisite to build for windows 64 in fedora 20
+# Prerequisite to build for windows 64 in fedora 20 (or 21 Beta4)
 	sudo yum install gcc mingw64* cmake
 
-# Build for windows 64 bits in fedora 20
+# Build for windows 64 bits in fedora 20 (or 21 Beta4)
 	./build/win64/build.sh
 
