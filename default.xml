@@ -14,7 +14,7 @@
 	<project path="external/LuaJIT" name="minetest_LuaJIT" />
 	<project path="external/openal-soft" name="openal-soft" revision="refs/tags/openal-soft-1.16.0" />
 	<project path="manifest" name="minetest_manifest" />
-	<project path="minetest" name="minetest" revision="master2" />
+	<project path="minetest" name="minetest" remote="minetest" revision="master" />
 
 	<!-- Add all the game you want here -->
 	<project path="minetest/games/minetest_game" name="minetest_game" remote="minetest" revision="master" />
