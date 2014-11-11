@@ -8,12 +8,12 @@
 		remote="napodan"
 		sync-j="4" />
 
-	<project path="build" name="minetest_build" revision="freeminer" />
+	<project path="build" name="freeminer_build" />
 	<project path="external/irrlicht" name="minetest_external_irrlicht" />
 	<project path="external/leveldb" name="leveldb" revision="windows_1.18" />
 	<project path="external/LuaJIT" name="minetest_LuaJIT" />
 	<project path="external/openal-soft" name="openal-soft" revision="refs/tags/openal-soft-1.16.0" />
-	<project path="manifest" name="minetest_manifest" revision="freeminer" />
+	<project path="manifest" name="freeminer_manifest" />
 	<project path="freeminer" name="freeminer" remote="freeminer" revision="master" />
 
 	<!-- Add all the game you want here -->
