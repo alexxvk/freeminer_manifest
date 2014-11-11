@@ -2,22 +2,22 @@
 <manifest>
 	<remote name="napodan"
 		fetch="git://github.com/napodan/" />
-	<remote name="minetest"
-		fetch="git://github.com/minetest/" />
+	<remote name="freeminer"
+		fetch="git://github.com/freeminer/" />
 	<default revision="master"
 		remote="napodan"
 		sync-j="4" />
 
-	<project path="build" name="minetest_build" />
+	<project path="build" name="minetest_build" revision="freeminer" />
 	<project path="external/irrlicht" name="minetest_external_irrlicht" />
 	<project path="external/leveldb" name="leveldb" revision="windows_1.18" />
 	<project path="external/LuaJIT" name="minetest_LuaJIT" />
 	<project path="external/openal-soft" name="openal-soft" revision="refs/tags/openal-soft-1.16.0" />
-	<project path="manifest" name="minetest_manifest" />
-	<project path="minetest" name="minetest" remote="minetest" revision="master" />
+	<project path="manifest" name="minetest_manifest" revision="freeminer" />
+	<project path="freeminer" name="freeminer" remote="freeminer" revision="master" />
 
 	<!-- Add all the game you want here -->
-	<project path="minetest/games/minetest_game" name="minetest_game" remote="minetest" revision="master" />
+	<project path="freeminer/games/default" name="default" remote="freeminer" revision="master" />
 
 	
 </manifest>
