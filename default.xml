@@ -9,7 +9,7 @@
 		sync-j="4" />
 
 	<project path="build" name="minetest_build" />
-	<project path="external/irrlicht" name="minetest_external_irrlicht" />
+	<project path="external/irrlicht" name="irrlicht" revision="refs/tags/release-1.8.1" />
 	<project path="external/leveldb" name="leveldb" revision="windows_1.18" />
 	<project path="external/LuaJIT" name="minetest_LuaJIT" />
 	<project path="external/openal-soft" name="openal-soft" revision="refs/tags/openal-soft-1.16.0" />
