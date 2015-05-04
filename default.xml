@@ -1,23 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	<remote name="napodan"
-		fetch="git://github.com/napodan/" />
-	<remote name="freeminer"
-		fetch="git://github.com/freeminer/" />
-	<default revision="master"
-		remote="napodan"
-		sync-j="4" />
+
+	<remote name="alexxvk" fetch="git://github.com/alexxvk/" />
+	<default revision="master" remote="alexxvk" sync-j="4" />
 
 	<project path="build" name="freeminer_build" />
 	<project path="external/irrlicht" name="irrlicht" revision="refs/tags/release-1.8.1" />
+	<project path="external/snappy" name="snappy-cmake" />
 	<project path="external/leveldb" name="leveldb" revision="windows_1.18" />
-	<project path="external/LuaJIT" name="minetest_LuaJIT" />
+	<project path="external/LuaJIT" name="LuaJIT" />
 	<project path="external/openal-soft" name="openal-soft" revision="refs/tags/openal-soft-1.16.0" />
+	<project path="external/msgpack" name="msgpack-c" />
 	<project path="manifest" name="freeminer_manifest" />
-	<project path="freeminer" name="freeminer" remote="freeminer" revision="master" />
+	<project path="freeminer" name="freeminer" />
 
 	<!-- Add all the game you want here -->
-	<project path="freeminer/games/default" name="default" remote="freeminer" revision="master" />
+	<project path="freeminer/games/default" name="default" revision="master" />
 
-	
 </manifest>

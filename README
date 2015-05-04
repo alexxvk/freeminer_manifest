@@ -12,7 +12,7 @@
 	cd staging
 
 # Create repository
-	repo init -u git://github.com/napodan/freeminer_manifest -b master
+	repo init -u git://github.com/alexxvk/freeminer_manifest -b master
 	repo sync
 
 # Prerequisite to build for windows 64 in fedora 20 (or 21 Beta4)
