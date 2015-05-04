@@ -9,7 +9,7 @@
 	<project path="external/snappy" name="snappy-cmake" />
 	<project path="external/leveldb" name="leveldb" revision="windows_1.18" />
 	<project path="external/LuaJIT" name="LuaJIT" />
-	<project path="external/openal-soft" name="openal-soft" revision="refs/tags/openal-soft-1.16.0" />
+	<project path="external/openal-soft" name="openal-soft" />
 	<project path="external/msgpack" name="msgpack-c" />
 	<project path="manifest" name="freeminer_manifest" />
 	<project path="freeminer" name="freeminer" />
