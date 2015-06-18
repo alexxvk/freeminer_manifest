@@ -14,6 +14,7 @@
 	<project path="manifest" name="freeminer_manifest" />
 	<project path="freeminer" name="freeminer" />
 	<project path="freeminer/src/enet" name="enet" />
+	<project path="freeminer/src/jsoncpp" name="jsoncpp" />
 
 	<!-- Add all the game you want here -->
 	<project path="freeminer/games/default" name="default" revision="master" />
