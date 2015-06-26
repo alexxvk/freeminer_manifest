@@ -6,7 +6,7 @@
 
 	<project path="build" name="freeminer_build" />
 	<project path="external/irrlicht" name="irrlicht" revision="refs/tags/release-1.8.1" />
-	<project path="external/snappy" name="snappy-cmake" />
+	<project path="external/snappy" name="snappy" revision="cmake" />
 	<project path="external/leveldb" name="leveldb" revision="windows_1.18" />
 	<project path="external/LuaJIT" name="LuaJIT" />
 	<project path="external/openal-soft" name="openal-soft" />
